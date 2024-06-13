@@ -14,7 +14,7 @@ Review and process job applications.
 TECHNOLOGIES USED
 Backend:
 Django: Web framework for building the backend and handling server-side logic.
-Django REST Framework: For creating APIs to manage job listings, applications, and user authentication.
+Django REST Framework: For creating APIs to manage job listings, applications, and user authentication
 
 Frontend:
 HTML, CSS, JavaScript: Frontend development for user interface and interactivity.
