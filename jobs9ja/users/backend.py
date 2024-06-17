@@ -5,7 +5,6 @@ from .models import User
 class EmailBackend(BaseBackend):
     def authenticate(self, request, username=None, password=None, **kwargs):
         try:
-            # Try to find the user by their email address
             user = User.objects.get(email=username)
             if user.check_password(password):
                 return user
