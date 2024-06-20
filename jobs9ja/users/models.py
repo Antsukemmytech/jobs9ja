@@ -10,9 +10,3 @@ class User(AbstractUser):
     has_company = models.BooleanField(default=False)
 
 
-class Recuriters(models.Model):
-    pass
-
-
-class Applicant (models.Model):
-    pass
